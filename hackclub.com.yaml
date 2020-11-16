@@ -27,6 +27,8 @@
   - AA418B02F6
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
+  - 61220A24D7 # From Expensify
+  - 2610E0D36E # From Expensify
 "*":
   ttl: 1
   type: CNAME
@@ -77,6 +79,18 @@ _dmarc:
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
+_github-challenge-HackClub-TIST.tist:
+- ttl: 1
+  type: TXT
+  value: a642a04930
+_github-challenge-HackClubSKNCOE.skn:
+- ttl: 1
+  type: TXT
+  value: b50f4fc353
+_github-challenge-Hackclub-PRC.prc:
+- ttl: 1
+  type: TXT
+  value: 26e02b51f5
 _github-challenge-hackclub:
 - ttl: 1
   type: TXT
@@ -185,6 +199,10 @@ alumni:
 - ttl: 1
   type: CNAME
   value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
+ama-machine:
+- ttl: 1
+  type: CNAME
+  value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
 angelhacks:
 - ttl: 1
   type: TXT
@@ -200,9 +218,13 @@ api2:
   ttl: 1
   type: CNAME
   value: tetrahedral-gooseberry-aady3np0p0xldlvl6d7ik0ld.herokudns.com.
+api.ctrl-alt-tec:
+- ttl: 1
+  type: CNAME
+  value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
 apply:
   type: CNAME
-  value: apply-hackclub.netlify.com.
+  value: cname.vercel-dns.com.
 archived.guide:
   ttl: 1
   type: CNAME
@@ -210,7 +232,7 @@ archived.guide:
 assets:
   ttl: 1
   type: CNAME
-  value: d25gljbdtt9pni.cloudfront.net.
+  value: cname.vercel-dns.com.
 av:
 - ttl: 1
   type: CNAME
@@ -239,6 +261,10 @@ bisv:
 - ttl: 1
   type: CNAME
   value: pkalavath.github.io.
+blog.ctrl-alt-tec:
+- ttl: 1
+  type: CNAME
+  value: ctrl-alt-tec.github.io.
 bounce:
 - ttl: 1
   type: CNAME
@@ -265,6 +291,9 @@ cca:
 cccs:
   type: CNAME
   value: cname.vercel-dns.com.
+cdn:
+  type: CNAME
+  value: cname.vercel-dns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -273,6 +302,10 @@ chapters:
   ttl: 1
   type: CNAME
   value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
+christinaday2020:
+- ttl: 3600
+  type: CNAME
+  value: hackclub.github.io.
 churchill:
 - ttl: 1
   type: CNAME
@@ -281,6 +314,14 @@ ciudalcampo:
 - ttl: 1
   type: CNAME
   value: code-sekcc.github.io.
+coins:
+- ttl: 1
+  type: A
+  value: 173.208.140.124
+ctf:
+- ttl: 1
+  type: CNAME
+  value: zealous-booth-dc1397.netlify.app.
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
@@ -370,10 +411,23 @@ finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
+fnt._domainkey:
+- ttl: 1
+  type: TXT
+  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
 fremont:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
+front-mail:
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:sendgrid.net ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx.sendgrid.net.
+    preference: 1
 gdynia:
 - ttl: 1
   type: CNAME
@@ -410,6 +464,10 @@ hackathons:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+hackbox:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hackcraft:
   ttl: 1
   type: A
@@ -429,11 +487,11 @@ icons:
 india:
   ttl: 1
   type: CNAME
-  value: optimistic-bohr-366ec2.netlify.com.
-isthevideodone:
+  value: cname.vercel-dns.com.
+indiablog:
   ttl: 1
   type: CNAME
-  value: perpendicular-plum-l86086n9dves545vfsaro460.herokudns.com.
+  value: cname.vercel-dns.com.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
@@ -454,6 +512,18 @@ laslomas:
 - ttl: 1
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
+leap:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+leap-manual:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+list:
+- ttl: 1
+  type: TXT
+  value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
 mail:
 - ttl: 1
   type: MX
@@ -465,10 +535,18 @@ mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+mail-services:
+  ttl: 1
+  type: CNAME
+  value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+malagon:
+- ttl: 1
+  type: CNAME
+  value: hackclubmalagon.netlify.app.
 markdown:
 - ttl: 1
   type: CNAME
@@ -508,6 +586,10 @@ milesmac:
   ttl: 1
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+miracosta:
+  ttl: 1
+  type: CNAME
+  value: miracosta.netlify.app.
 mumble:
 - ttl: 1
   type: A
@@ -524,10 +606,22 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
+notebook:
+  ttl: 1
+  type: CNAME
+  value: angular-blueberry-blxz54b9xvb0lyzryhtwl8lg.herokudns.com.
+numberwang:
+  ttl: 1
+  type: CNAME
+  value: impactdns.techby.org.
+orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
+- ttl: 1
+  type: A
+  value: 46.101.185.129
 p2p:
   ttl: 1
   type: CNAME
-  value: p2phackclub.netlify.com.
+  value: p2phack.club.
 pack:
   ttl: 1
   type: CNAME
@@ -540,6 +634,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+portal.ctf:
+  ttl: 1
+  type: A
+  value: 167.99.110.64
 postal:
   ttl: 1
   type: CNAME
@@ -548,6 +646,28 @@ postal.servers:
   ttl: 1
   type: A
   value: 23.92.24.6
+prc:
+ - ttl: 1
+   type: A
+   value: 104.198.14.52
+ - ttl: 3600
+   type: TXT
+   values:
+   - v=spf1 include:_spf.google.com ~all
+   - google-site-verification=ZGebQ9CxwNSuLb1foBdmD2DBlh8exTH9aVgSJDAAk4A
+ - ttl: 3600
+   type: MX
+   values:
+   - exchange: aspmx.l.google.com.
+     preference: 1
+   - exchange: alt1.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt2.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt3.aspmx.l.google.com.
+     preference: 10
+   - exchange: alt4.aspmx.l.google.com.
+     preference: 10
 proxy.servers:
   ttl: 1
   type: A
@@ -599,6 +719,10 @@ scrapbook:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+scrapbooks:
+- ttl: 1
+  type: CNAME
+  value: keen-brahmagupta-b1f934.netlify.app.
 scrappy:
   ttl: 1
   type: CNAME
@@ -625,6 +749,18 @@ shop:
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
+singgasana:
+  ttl: 1
+  type: CNAME
+  value: singgasana.netlify.app.
+skn:
+  ttl: 1
+  type: CNAME
+  value: solid-onion-63apxaanqedcag7x8576dhle.herokudns.com.
+slash-z:
+  ttl: 1
+  type: CNAME
+  value: polished-sawfish-f8unsz8p6ppk9l4n4x27g1pp.herokudns.com.
 smhs:
 - ttl: 1
   type: CNAME
@@ -641,6 +777,10 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
+status:
+- ttl: 1
+  type: CNAME
+  value: dashboards.checklyhq.com.
 streaks:
 - ttl: 1
   type: CNAME
@@ -695,6 +835,28 @@ theme:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+tist:
+- ttl: 1
+  type: A
+  value: 104.198.14.52
+- ttl: 3600
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=RXAYNylPkJjovWdmpddTpvXzCojzqI4C0JdEjlYtd9U
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 titanhacks:
 - ttl: 1
   type: CNAME
@@ -727,6 +889,10 @@ vmc:
 - ttl: 1
   type: A
   value: 173.208.140.125
+webring:
+- ttl: 1
+  type: CNAME
+  value: hackclub-webring.netlify.app.
 westborough:
 - ttl: 1
   type: CNAME
@@ -751,6 +917,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.tist:
+- ttl: 1
+  type: CNAME
+  value: tist.hackclub.com.
 zachday:
 - ttl: 1
   type: CNAME
